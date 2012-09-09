@@ -1,7 +1,7 @@
 body{
 
 }
-body > div{
+/*body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -15,7 +15,7 @@ body > div > div > div > div{
 }
 body > div > div > div > div > div {
 	outline:1px dashed cyan;
-}
+}*/
 
 div.container-head{
 	min-height: 90px;
@@ -81,13 +81,53 @@ div.menu a:hover{
 	color: white;
 	text-shadow: 1px 2px #333;
 }
+div.slideshow{
+	position:relative;
+	background-color: black;
+}
 div.slideshow div.slidebar{
 	width: 950px;
 	margin: 0 auto;
 	height: 350px;
 }
-div.slidebar > div{
+div.slidebar div{
+	outline: none;
 	width: 118.75px;
 	height: 87.5px;
 	float: left;
+}
+div.slideshow div.selector{
+	width: 950px;
+	height: 13px;
+	position:absolute;
+	top: 330px;
+	left: 15px;
+}
+div.selector ul{
+	list-style-type: none;
+	width: 75px;
+	height: inherit;
+	margin: 0 auto;
+}
+div.selector ul li{
+	width: 13px;
+	height: 13px;
+	background-color: #333;
+	float: left;
+	margin-right: 5px;
+	border-radius: 10px;
+}
+div.selector ul li:hover{
+	background-color:#999;
+}
+div.previous,div.next{
+	width: 50px;
+	height: 50px;
+	position:absolute;
+	background-color: red;
+	top: 150px;
+	left: 0
+}
+div.next{
+	left: 930px;
 }

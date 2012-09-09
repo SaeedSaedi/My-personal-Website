@@ -16,3 +16,24 @@ body > div > div > div > div{
 body > div > div > div > div > div {
 	outline:1px dashed cyan;
 }
+div.container-head{
+	min-height: 90px;
+}
+div.container-menu{
+	min-height: 50px;
+}
+div.container-slideshow{
+	min-height: 400px;
+}
+div.container-content{
+	min-height: 300px;
+}
+div.container-footer{
+	min-height: 100px;
+}
+
+div[class|='container'] > div{
+	width: 980px;
+	margin: 0 auto;
+	min-height: inherit;
+}

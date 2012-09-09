@@ -24,7 +24,20 @@ $(function(){
 	});
 
 	//Change Background 
+	ChangeBG = function(n){
 
-	
+		rndArray = Array();
+		for(i=0;i<32;i++){
+			rndArray[i]=i
+		};
+
+		rndArray.sort(function(a,b){
+			return Math.random() - 0.5;
+		})
+		
+		for(j=0;j<32;j++){
+			part.eq(rndArray[j]).animate({backgroundImage:'url(\'slideshow/pic'+n+'.jpg\')'},j*100);
+		};
+	};
 	
 });

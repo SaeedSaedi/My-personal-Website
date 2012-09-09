@@ -1,7 +1,7 @@
 body{
 
 }
-/*body > div{
+body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -15,7 +15,8 @@ body > div > div > div > div{
 }
 body > div > div > div > div > div {
 	outline:1px dashed cyan;
-}*/
+}
+
 div.container-head{
 	min-height: 90px;
 	background-image: url('./image/header_bg.png');
@@ -24,6 +25,7 @@ div.container-menu{
 	min-height: 50px;
 	background-image: url('./image/bg_prod_title.png');
 	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
 }
 div.container-slideshow{
 	min-height: 400px;
@@ -39,15 +41,37 @@ div.container-footer{
 div.container-centerside{
 	min-height: 60px;
 	background: url('./image/header_bg.png') bottom left repeat-x;
+	border-top:1px solid #ddd;
 	border-bottom:1px solid #ddd;
 }
 div.container-bg{
 	min-height: 30px;
 	background-image: url('./image/bg_prod_title.png');
 	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
 }
 div[class|='container'] > div{
 	width: 980px;
 	margin: 0 auto;
 	min-height: inherit;
+	padding-top: 1px;
+}
+div.menu ul{
+	list-style-type: none;
+	width: 300px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+div.menu ul li{
+	float: left;
+	margin-top: 12px;
+	margin-left: 4px;
+}
+div.menu a{
+	text-decoration: none;
+	color: black;
+	padding: 4px 12px;
+	background-color: gray;
+	border-radius: 10px;
 }

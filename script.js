@@ -3,7 +3,9 @@ $(function(){
 	//Slide show
 	var part = $('div.slidebar div'),
 		li = $('div.selector li'),
-		cr = 0;
+		slideshow = $('div.slideshow'),
+		cr = 0,
+		AP = false;
 	//Set Background Position of each part
 	part.each(function(i){
 		if(i<32){
@@ -53,6 +55,23 @@ $(function(){
 	nextpic = function(){
 		gotopic(cr+1);
 	};
+	//AutoPlay
+	APstart = function(){
+		if(AP) return;
+		AP = setInterval(nextpic,5000);
+	};
+	APstop = function(){
+		clearInterval(AP);
+		AP = false;
+	};
 
+	slideshow.mouseover(function(){
+		APstop();
+	});
 
+	slideshow.mouseout(function(){
+		APstart();
+	});
+
+	APstart();
 });

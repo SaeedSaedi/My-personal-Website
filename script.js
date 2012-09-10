@@ -1,7 +1,9 @@
 $(function(){
 
-	//Slide show
-	var part = $('div.slidebar div'),
+	//Slide show......................................................................................................
+	var width=950,
+		height=350,
+		part = $('div.slidebar div'),
 		li = $('div.selector li'),
 		slideshow = $('div.slideshow'),
 		arrow = $('div.slideshow div.arrow'),
@@ -10,16 +12,16 @@ $(function(){
 	//Set Background Position of each part
 	part.each(function(i){
 		if(i<32){
-			$(this).css({backgroundPosition:(i)*-118.75+"px -262.5px"});
+			$(this).css({backgroundPosition:(i)*-(width/8)+"px "+((-height/4)*3)+"px"});
 		};
 		if(i<24){
-			$(this).css({backgroundPosition:(i)*-118.75+"px -175px"});
+			$(this).css({backgroundPosition:(i)*-(width/8)+"px "+((-height/4)*2)+"px"});
 		};
 		if(i<16){
-			$(this).css({backgroundPosition:(i)*-118.75+"px -87.5px"});
+			$(this).css({backgroundPosition:(i)*-(width/8)+"px "+((-height/4)*1)+"px"});
 		};
 		if(i<8){
-			$(this).css({backgroundPosition:(i)*-118.75+"px 0px"});
+			$(this).css({backgroundPosition:(i)*-(width/8)+"px 0px"});
 		};
 	});
 	//Change Background 
@@ -86,4 +88,6 @@ $(function(){
 	HideArrow = function(){
 		arrow.animate({top:'-40px'})
 	}
+
+	//Slide show......................................................................................................
 });

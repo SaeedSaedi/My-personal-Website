@@ -12,20 +12,21 @@ $(function(){
 	//Set Background Position of each part
 	part.each(function(i){
 		if(i<32){
-			$(this).css({backgroundPosition:(i)*-(width/8)+"px "+((-height/4)*3)+"px"});
+			$(this).css({backgroundPosition:(i)*(-width/8)+"px "+((-height/4)*3)+"px"});
 		};
 		if(i<24){
-			$(this).css({backgroundPosition:(i)*-(width/8)+"px "+((-height/4)*2)+"px"});
+			$(this).css({backgroundPosition:(i)*(-width/8)+"px "+((-height/4)*2)+"px"});
 		};
 		if(i<16){
-			$(this).css({backgroundPosition:(i)*-(width/8)+"px "+((-height/4)*1)+"px"});
+			$(this).css({backgroundPosition:(i)*(-width/8)+"px "+((-height/4)*1)+"px"});
 		};
 		if(i<8){
-			$(this).css({backgroundPosition:(i)*-(width/8)+"px 0px"});
+			$(this).css({backgroundPosition:(i)*(-width/8)+"px 0px"});
 		};
 	});
 	//Change Background 
 	ChangeBG = function(n){
+		
 		rndArray = Array();
 		for(i=0;i<32;i++){
 			rndArray[i]=i
@@ -34,7 +35,7 @@ $(function(){
 			return Math.random() - 0.5;
 		})
 		for(j=0;j<32;j++){
-			part.eq(rndArray[j]).animate({backgroundImage:'url(\'slideshow/pic'+n+'.jpg\')'},j*100);
+			part.eq(rndArray[j]).animate({backgroundImage:'url('+path[n]+')'},j*100);
 		};
 	};
 	//Selector bottom

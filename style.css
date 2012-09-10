@@ -116,18 +116,27 @@ div.selector ul li{
 	float: left;
 	margin-right: 5px;
 	border-radius: 10px;
+	cursor: pointer;
 }
 div.selector ul li:hover{
 	background-color:#999;
 }
+div.selector ul li.active{
+	background-color: #999;
+}
 div.previous,div.next{
-	width: 50px;
+	width: 15px;
 	height: 50px;
 	position:absolute;
-	background-color: red;
 	top: 150px;
-	left: 0
+	left: 0;
+	background-image:url('./image/arrows.png');
+	cursor: pointer;
 }
 div.next{
-	left: 930px;
+	left: 965px;
+	background-position: -39px 0px;
+}
+div.previous{
+	background-position:  -6px 0px;
 }

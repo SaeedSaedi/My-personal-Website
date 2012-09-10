@@ -7,9 +7,12 @@ $(function(){
 		li = $('div.selector li'),
 		slideshow = $('div.slideshow'),
 		arrow = $('div.slideshow div.arrow'),
+		ul = $('div.selector ul'),
 		cr = 0,
 		AP = false;
 	//Set Background Position of each part
+	ul.css({width:length*25+'px'})
+	
 	part.each(function(i){
 		if(i<32){
 			$(this).css({backgroundPosition:(i)*(-width/8)+"px "+((-height/4)*3)+"px"});
@@ -45,8 +48,8 @@ $(function(){
 		});
 	});
 	(gotopic = function(n){
-		if(n>3) n=0;
-		if(n<0) n=3;
+		if(n>length-1) n=0;
+		if(n<0) n=length-1;
 		li.eq(cr).removeClass('active');
 		li.eq(n).addClass('active');
 		ChangeBG(n);

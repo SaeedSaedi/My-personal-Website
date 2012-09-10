@@ -10,7 +10,7 @@
 	$(function(){
 		m = 0;
 		path = Array();
-		
+
 		<?php 
 			$img_path = "./slideshow";
 			$images = scandir($img_path);
@@ -24,7 +24,7 @@
 		?>
 
 		path[m] = <?php echo "'$path[$i]'"; ?>;
-		m++
+		m++;
 		
 		<?php
 
@@ -32,6 +32,8 @@
 				};
 			};
 		?>
+
+		length = <?php echo "$i"; ?>;
 	});
 	</script>
 	<script type="text/javascript" src="./script.js">
@@ -54,45 +56,19 @@
 	<div class="container-slideshow">
 		<div class="slideshow">
 			<div class="slidebar">
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
+				<?php
+					for ($m=0; $m < 32; $m++) { 
+						echo "<div></div>";
+					};
+				?>
 			</div>
 			<div class="selector">
 				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<?php
+						for ($j=0; $j < $i ; $j++) { 
+							echo '<li></li>';
+						};
+					?>
 				</ul>
 			</div>
 			<div class="previous arrow" onclick="previouspic();"></div>

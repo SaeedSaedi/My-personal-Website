@@ -4,6 +4,7 @@ $(function(){
 	var part = $('div.slidebar div'),
 		li = $('div.selector li'),
 		slideshow = $('div.slideshow'),
+		arrow = $('div.slideshow div.arrow'),
 		cr = 0,
 		AP = false;
 	//Set Background Position of each part
@@ -67,11 +68,22 @@ $(function(){
 
 	slideshow.mouseover(function(){
 		APstop();
+		ShowArrow();
+
 	});
 
 	slideshow.mouseout(function(){
 		APstart();
+		HideArrow();
 	});
 
 	APstart();
+
+	//Animation of arrow
+	ShowArrow = function(){
+		arrow.animate({top:'150px'})
+	}
+	HideArrow = function(){
+		arrow.animate({top:'-40px'})
+	}
 });

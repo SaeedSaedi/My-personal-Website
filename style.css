@@ -84,6 +84,7 @@ div.menu a:hover{
 div.slideshow{
 	position:relative;
 	background-color: black;
+	overflow: hidden;
 }
 div.slideshow div.slidebar{
 	width: 950px;
@@ -128,7 +129,7 @@ div.previous,div.next{
 	width: 15px;
 	height: 50px;
 	position:absolute;
-	top: 150px;
+	top: -40px;
 	left: 0;
 	background-image:url('./image/arrows.png');
 	cursor: pointer;

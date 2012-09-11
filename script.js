@@ -12,7 +12,7 @@ $(function(){
 		AP = false;
 	//Set Background Position of each part
 	ul.css({width:length*25+'px'})
-	
+
 	part.each(function(i){
 		if(i<32){
 			$(this).css({backgroundPosition:(i)*(-width/8)+"px "+((-height/4)*3)+"px"});
@@ -75,7 +75,6 @@ $(function(){
 	slideshow.mouseover(function(){
 		APstop();
 		ShowArrow();
-
 	});
 
 	slideshow.mouseout(function(){
@@ -87,11 +86,11 @@ $(function(){
 
 	//Animation of arrow
 	ShowArrow = function(){
-		arrow.animate({top:'150px'})
-	}
+		arrow.animate({top:'140px'});
+	};
 	HideArrow = function(){
 		arrow.animate({top:'-40px'})
-	}
+	};
 
 	//Slide show......................................................................................................
 });

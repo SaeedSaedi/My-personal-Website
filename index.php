@@ -46,7 +46,7 @@
 	<div class="container-menu">
 		<div class="menu">
 			<ul>
-				<li><a href="#">Home</a></li>
+				<li><a href="#" class='active'>Home</a></li>
 				<li><a href="#">Product</a></li>
 				<li><a href="#">Gallery</a></li>
 				<li><a href="#">About Us</a></li>

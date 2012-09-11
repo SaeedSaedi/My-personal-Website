@@ -5,6 +5,7 @@
 	<title></title>
 	<link rel="stylesheet" href="./reset.css" />
 	<link rel="stylesheet" href="./style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="./zepto.js"></script>
 	<script type="text/javascript">
 	$(function(){
@@ -76,7 +77,9 @@
 		</div>
 	</div>
 	<div class="container-centerside">
-		<div class="centerside"></div>
+		<div class="centerside">
+			<p>Warren Paint & Color Co. provides unmatched optical flatness & pigment density to create time & labor saving best practices for every studio, regardless of size.</p>
+		</div>
 	</div>
 	<div class="container-content">
 		<div class="content"></div>

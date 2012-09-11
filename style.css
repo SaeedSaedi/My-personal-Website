@@ -75,18 +75,18 @@ div.menu a{
 	padding: 5px 13px;
 	background-color: #ddd;
 	border-radius: 7px;
-	text-shadow: 1px 2px #eee;
-	font-family: "Franklin Gothic Book";
+	text-shadow: 1px 1px #eee;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;;
 }
 div.menu a:hover{
 	background-color: #333;
 	color: white;
-	text-shadow: 1px 2px #333;
+	text-shadow: 1px 1px #333;
 }
 div.menu a.active{
 	background-color: #333;
 	color: white;
-	text-shadow: 1px 2px #333;
+	text-shadow: 1px 1px #333;
 }
 div.slideshow{
 	position:relative;
@@ -147,4 +147,13 @@ div.next{
 }
 div.previous{
 	background-position:  -6px 0px;
+}
+
+div.centerside p{
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 1.25em;
+	font-weight: normal;
+	line-height: 1.2;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }

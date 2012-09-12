@@ -32,10 +32,10 @@ div.container-slideshow{
 	background-image: url('./image/fabric.png');
 }
 div.container-content{
-	min-height: 300px;
+	min-height: 0px;
 }
 div.container-footer{
-	min-height: 100px;
+	min-height: 190px;
 	background-image: url('./image/fabric.png');
 }
 div.container-centerside{
@@ -158,4 +158,10 @@ div.centerside p{
 	font-weight: normal;
 	line-height: 1.2;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+div.bg a{
+	display: block;
+	width:50px;
+	margin: 0 auto;
 }

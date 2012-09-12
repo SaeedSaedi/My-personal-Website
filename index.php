@@ -84,7 +84,11 @@
 	<div class="container-content">
 		<div class="content"></div>
 	</div>
-	<div class="container-bg"></div>
+	<div class="container-bg">
+		<div class="bg">
+			<a href="#"><img src="./image/down_arrow.png" alt=""></a>
+		</div>
+	</div>
 	<div class="container-footer">
 		<div class="footer"></div>
 	</div>

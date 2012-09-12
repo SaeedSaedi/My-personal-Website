@@ -103,11 +103,11 @@ $(function(){
 	CenterArrow.click(function(){
 		if(Check){
 			Content.animate({minHeight:'300px'});
-			CenterArrow.animate({rotate:'180deg'},50);
+			CenterArrow.animate({rotate:'180deg'},1);
 			Check = false
 		}else{
 			Content.animate({minHeight:'0px'});
-			CenterArrow.animate({rotate:'360deg'},50);
+			CenterArrow.animate({rotate:'360deg'},1);
 			Check = true;
 		};
 		

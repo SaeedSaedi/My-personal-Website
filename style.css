@@ -1,7 +1,7 @@
 body{
 
 }
-/*body > div{
+body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -15,7 +15,10 @@ body > div > div > div > div{
 }
 body > div > div > div > div > div {
 	outline:1px dashed cyan;
-}*/
+}
+body > div > div > div > div > div > div{
+	outline:1px dashed red;
+}
 
 div.container-head{
 	min-height: 90px;
@@ -164,4 +167,29 @@ div.bg a{
 	display: block;
 	width:50px;
 	margin: 0 auto;
+	border-radius: 20px;
+}
+
+div.footer div.facebook{
+	width: 150px;
+	height: 20px;
+	margin-left: 325px;
+	margin-top: 50px;
+	float: left;
+}
+div.footer div.twitter{
+	width: 150px;
+	height: 20px;
+	margin-left: 500px;
+	margin-top: 50px;
+}
+div.footer div.info{
+	width: 800px;
+	min-height:25px;
+	margin: 10px auto 0;
+}
+div.footer div.copyright{
+	width:300px;
+	min-height: 25px;
+	margin: 10px auto 0;
 }

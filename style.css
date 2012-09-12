@@ -1,7 +1,7 @@
 body{
 
 }
-body > div{
+/*body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -18,7 +18,7 @@ body > div > div > div > div > div {
 }
 body > div > div > div > div > div > div{
 	outline:1px dashed red;
-}
+}*/
 
 div.container-head{
 	min-height: 90px;
@@ -193,3 +193,33 @@ div.footer div.copyright{
 	min-height: 25px;
 	margin: 10px auto 0;
 }
+div.facebook img,div.twitter img{
+	float: left;
+	margin-left: 30px;
+}
+div.facebook p,div.twitter p{
+	color: #fff;
+	width:60px;
+	margin-left: 50px;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+}
+div.facebook a,div.twitter a{
+	text-decoration: none;
+}
+div.info p{
+	font-size: 15px;
+	width:800px;
+	margin: 0 auto;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+	color: #567;
+}
+div.copyright p{
+	font-size: 15px;
+	width:300px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	color: #675;
+}
+

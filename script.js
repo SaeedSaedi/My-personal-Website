@@ -103,7 +103,7 @@ $(function(){
 
 	CenterArrow.click(function(){
 		if(Check){
-			Content.animate({Height:'600px'});
+			Content.animate({Height:'500px'});
 			CenterArrow.animate({rotate:'180deg'},1);
 			pageContent.css({display:'block'});
 			Check = false

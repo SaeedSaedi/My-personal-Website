@@ -227,6 +227,7 @@ div.content{
 	position: relative;
 	z-index: -1;
 	display:none;
+	height:500px;
 }
 div.content div.header{
 	height: 70px;

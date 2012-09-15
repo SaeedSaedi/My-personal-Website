@@ -82,7 +82,9 @@
 		</div>
 	</div>
 	<div class="container-content">
-		<div class="content"></div>
+		<div class="content">
+			
+		</div>
 	</div>
 	<div class="container-bg">
 		<div class="bg">
@@ -107,7 +109,7 @@
 				<p>this webpage is desgin for group of developer that style the internet keep and support</p>
 			</div>
 			<div class="copyright">
-				<p>All right reserved By slash 2012</p>
+				<p>All right reserved By Saeed 2012</p>
 			</div>
 		</div>
 	</div>

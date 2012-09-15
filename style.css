@@ -1,7 +1,7 @@
 body{
 
 }
-/*body > div{
+body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -18,7 +18,7 @@ body > div > div > div > div > div {
 }
 body > div > div > div > div > div > div{
 	outline:1px dashed red;
-}*/
+}
 
 div.container-head{
 	min-height: 90px;
@@ -35,7 +35,7 @@ div.container-slideshow{
 	background-image: url('./image/fabric.png');
 }
 div.container-content{
-	min-height: 0px;
+	height: 0px;
 }
 div.container-footer{
 	min-height: 190px;
@@ -221,5 +221,11 @@ div.copyright p{
 	text-align: center;
 	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
 	color: #675;
+}
+
+div.content{
+	position: relative;
+	z-index: -1;
+
 }
 

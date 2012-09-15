@@ -98,17 +98,20 @@ $(function(){
 
 	var CenterArrow = $('div.bg a'),
 		Content = $('div.container-content'),
+		pageContent = $('div.container-content div.content'),
 		Check = true;
 
 	CenterArrow.click(function(){
 		if(Check){
-			Content.animate({minHeight:'300px'});
+			Content.animate({Height:'700px'});
 			CenterArrow.animate({rotate:'180deg'},1);
+			pageContent.css({display:'block'});
 			Check = false
 		}else{
-			Content.animate({minHeight:'0px'});
+			Content.animate({Height:'0px'});
 			CenterArrow.animate({rotate:'360deg'},1);
 			Check = true;
+			pageContent.css({display:'none'});
 		};
 		
 	});

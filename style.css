@@ -1,7 +1,7 @@
 body{
 
 }
-body > div{
+/*body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -18,7 +18,7 @@ body > div > div > div > div > div {
 }
 body > div > div > div > div > div > div{
 	outline:1px dashed red;
-}
+}*/
 
 div.container-head{
 	min-height: 90px;
@@ -226,6 +226,52 @@ div.copyright p{
 div.content{
 	position: relative;
 	z-index: -1;
+	display:none;
+}
+div.content div.header{
+	height: 70px;
+}
+div.content div.header p{
+	width:170px;
+	line-height: 70px;
+	font-size: 30px;
+	margin-left: 30px;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	color: #356;
+}
+div.content div.project{
+	width: 300px;
+	height:430px;
+	float: left;
+	margin-left:20px;
+	margin-top: 5px;
+}
+div.project div.img{
+	width:280px;
+	height:200px;
+	margin-left: 10px;
+	padding-bottom: 10px;
+	background-image: url('./image/shadow_left.png'),url('./image/shadow_right.png');;
+	background-repeat: no-repeat;
+	background-position: 0px 200px,150px 200px;
 
+}
+div.project div.img img{
+	width:inherit;
+	height:200px;
+	
+}
+div.project div.txt{
+	width:280px;
+	height:200px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+div.project div.txt p{
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	font-size: 16px;	
+	line-height: 18px;
+	text-indent: 20px;
+	color: #654;
 }
 

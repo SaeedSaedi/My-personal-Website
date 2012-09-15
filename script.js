@@ -94,7 +94,7 @@ $(function(){
 
 	//Slide show......................................................................................................
 
-	//Center arrow
+	//Center arrow , Content Display change
 
 	var CenterArrow = $('div.bg a'),
 		Content = $('div.container-content'),
@@ -103,7 +103,7 @@ $(function(){
 
 	CenterArrow.click(function(){
 		if(Check){
-			Content.animate({Height:'700px'});
+			Content.animate({Height:'600px'});
 			CenterArrow.animate({rotate:'180deg'},1);
 			pageContent.css({display:'block'});
 			Check = false

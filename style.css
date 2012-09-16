@@ -291,7 +291,7 @@ div.Cproject div.part{
 	padding-bottom: 10px;
 	border:1px solid #eee;
 	border-radius: 5px;
-	box-shadow: 0px 0px 4px #ccc;
+	box-shadow: 1px 1px 3px #666;
 
 }
 div.part div.txt{
@@ -331,7 +331,7 @@ div.txt div.head{
 	margin-left: 290px;
 }
 div.txt div.head p{
-	width:170px;
+	width:auto;
 	line-height: 30px;
 	font-size: 30px;
 	margin-left: 30px;

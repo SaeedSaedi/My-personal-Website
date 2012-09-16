@@ -6,7 +6,7 @@
 					<img src="" alt="" />
 				</div>
 				<div class="head">
-					<p>PROJECT</p>
+					<p>PROJECT - this is a project</p>
 				</div>
 				<p>Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic programs and more.
 				Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic programs and more.Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic programs and more.
@@ -26,7 +26,7 @@
 					<img src="" alt="" />
 				</div>
 				<div class="head">
-					<p>PROJECT</p>
+					<p>PROJECT - this is a project</p>
 				</div>
 				<p>Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic programs and more.
 				Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic programs and more.Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic programs and more.

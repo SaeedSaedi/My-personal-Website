@@ -48,7 +48,7 @@ div.container-centerside{
 	border-bottom:1px solid #ddd;
 }
 div.container-bg{
-	min-height: 30px;
+	min-height: 50px;
 	background-image: url('./image/bg_prod_title.png');
 	border-top:1px solid #ddd;
 	border-bottom:1px solid #ddd;
@@ -275,4 +275,68 @@ div.project div.txt p{
 	text-indent: 20px;
 	color: #654;
 }
+
+
+/*...........................Content-project.............................*/
+
+div.container-Cproject{
+	min-height: 410px;
+}
+
+div.Cproject div.part{
+	width: 980px;
+	min-height: 230px;
+	margin-top:10px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border:1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px #ccc;
+
+}
+div.part div.txt{
+	width: 970px;
+	margin-left: 5px;
+	min-height: inherit;
+	padding-top: 1px;
+}
+div.part div.txt p{
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	font-size: 16px;	
+	line-height: 18px;
+	text-indent: 20px;
+	color: #342;
+	margin-top: 10px;
+}
+div.part div.txt div.img{
+	width:280px;
+	height:200px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	background-image: url('./image/shadow_left.png'),url('./image/shadow_right.png');;
+	background-repeat: no-repeat;
+	background-position: 0px 200px,150px 200px;
+	float: left;
+}
+div.txt div.img img{
+	width:inherit;
+	height:200px;
+
+}
+div.txt div.head{
+	width: auto;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 290px;
+}
+div.txt div.head p{
+	width:170px;
+	line-height: 30px;
+	font-size: 30px;
+	margin-left: 30px;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	color: #356;
+}
+
 

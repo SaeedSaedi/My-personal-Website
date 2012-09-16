@@ -1,3 +1,9 @@
+<div class="container-centerside">
+	<div class="centerside">
+		<p>Warren Paint & Color Co. provides unmatched optical flatness & pigment density to create time & labor saving best practices for every studio, regardless of size.</p>
+	</div>
+</div>
+
 <div class="container-content">
 	<div class="content">
 		<div class="header">
@@ -33,5 +39,11 @@
 				</p>
 			</div>
 		</div>
+	</div>
+</div>
+
+<div class="container-bg">
+	<div class="bg">
+		<a href="#"><img src="./image/down_arrow.png" alt=""></a>
 	</div>
 </div>

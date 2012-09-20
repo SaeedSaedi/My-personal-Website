@@ -37,7 +37,7 @@
 		length = <?php echo "$i"; ?>;
 	});
 	</script>
-	<script type="text/javascript" src="./script.js">
-	</script>
+	<script type="text/javascript" src="./script.js"></script>
+	<script type="text/javascript" src="./mailvalidate.js"></script>
 </head>
 <body>

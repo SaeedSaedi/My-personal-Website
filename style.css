@@ -340,3 +340,40 @@ div.txt div.head p{
 }
 
 
+
+/*...........................Content-contact.............................*/
+
+div.container-contact{
+	min-height: 463px;
+}
+
+div.contact div.form{
+	width: 970px;
+	margin-left: 5px;
+	margin-top: 10px;
+	height: 440px;
+}
+
+form.contact{
+	width: 500px;
+	height:inherit;
+}
+
+form.contact p{
+	font-size: 17px;
+	height: 40px;
+	margin-left: 10px;
+	line-height: 40px;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+
+}
+form.contact input{
+	width: 200px;
+	margin-left: 40px;
+	outline: none;
+	height: 20px;
+}
+form.contact textarea{
+	margin-left: 40px;
+}
+

@@ -1,7 +1,7 @@
 <div class="container-contact">
 	<div class="contact">
 		<div class="form">
-			<form action="" method="" class="contact">
+			<form action="./mail.php" method="post" class="contact">
 				<p>Name</p>
 				<input name="name" id="name" placeholder="Name"  type="text" />
 				<p>E-mail</p>

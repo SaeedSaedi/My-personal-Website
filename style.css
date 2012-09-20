@@ -410,3 +410,9 @@ form.contact input.ok{
 form.contact input.err{
 	background-color: #C58B8B;
 }
+form.contact textarea.ok{
+	background-color: #96C296;
+}
+form.contact textarea.err{
+	background-color: #C58B8B;
+}

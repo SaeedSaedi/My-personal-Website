@@ -380,6 +380,12 @@ form.contact input{
 	margin-left: 40px;
 	outline: none;
 	height: 20px;
+	-webkit-transition: all 1s ease;
+	   -moz-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+	     -o-transition: all 1s ease;
+	        transition: all 1s ease;
+	
 }
 form.contact textarea{
 	margin-left: 40px;
@@ -396,4 +402,11 @@ input#submit,input#reset{
 input#submit{
 	float: left;
 	margin-top: 6px;
+}
+
+form.contact input.ok{
+	background-color: #96C296;
+}
+form.contact input.err{
+	background-color: #C58B8B;
 }

@@ -1,7 +1,7 @@
 <div class="container-contact">
 	<div class="contact">
 		<div class="form">
-			<form action="./mail.php" method="post" class="contact">
+			<form action="./mail.php" method="post" class="contact" target="ifrm">
 				<p>Name</p>
 				<input name="name" id="name" placeholder="Name"  type="text" />
 				<p>E-mail</p>
@@ -12,6 +12,7 @@
 				<textarea  name="message" id="message" placeholder="Message" cols="30" rows="8"></textarea>
 				<input id="submit" name="submit" value="Send" type="submit" />
 				<input id="reset" name="reset" type="reset" />
+				<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
 			</form>
 		</div>
 	</div>

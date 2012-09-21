@@ -10,7 +10,7 @@ function validateEmail(str){
 
 $(function(){
 	$('form.contact').submit(function(){
-		var target, error = false;
+		var target, err = false;
 
 		target = $('input#name');
 		if( validateText(target.val(),3) ){
@@ -44,7 +44,17 @@ $(function(){
 			err = true;
 		};
 
+
+		if(!err){
+			$('iframe#ifrm').animate({width:'70px'});
+		};
+
+
 		return !err;
+	});
+
+	$('#reset').click(function(){
+		$('#ifrm').animate({width:'0px'});
 	});
 
 });

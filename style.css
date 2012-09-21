@@ -1,7 +1,7 @@
 body{
 
 }
-body > div{
+/*body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -18,7 +18,7 @@ body > div > div > div > div > div {
 }
 body > div > div > div > div > div > div{
 	outline:1px dashed red;
-}
+}*/
 
 div.container-head{
 	min-height: 90px;
@@ -434,5 +434,37 @@ div.contact div.aboutus{
 	height: 440px;
 	margin-left: 450px;
 	margin-top: 10px;
-	border: 1px solid gray;
+}
+div.aboutus p{
+	font-size: 30px;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	color: #476;
+	width: 0px;
+	white-space:nowrap;
+	overflow: hidden;
+}
+div.aboutus div.information{
+	width: 500px;
+	height: 310px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+div.information p{
+	font-size: 16px;
+	color: #345;
+	white-space: normal;
+	width: auto;
+	height: 0px;
+}
+div.aboutus div.aboutimg{
+	width: 500px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+div.aboutimg img{
+	width: 60px;
+	margin-left: 50px;
+	margin-top: 80px;
 }

@@ -16,7 +16,16 @@
 			</form>
 		</div>
 		<div class="aboutus">
-			
+			<p>About Us</p>
+			<div class="information">
+				<p>Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic programs and more. Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic programs and more.Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic programs and more. Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic programs and more.Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic programs and more. Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic exchange, academic programs and more. Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic exchange, academic programs and more. Founded in 1965, EF offers study abroad programs, language education, educational and leisure tours, cultural exchange, academic</p>
+			</div>
+			<div class="aboutimg">
+				<img src="./image/html.png" alt="">
+				<img src="./image/css.png" alt="">
+				<img src="./image/js.png" alt="">
+				<img src="./image/php.png" alt="">
+			</div>
 		</div>
 	</div>
 </div>

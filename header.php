@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Home</title>
-	<link rel="stylesheet" href="./reset.css" />
-	<link rel="stylesheet" href="./style.css" />
+	<link rel="stylesheet" type='text/css' href="./reset.css" />
+	<link rel="stylesheet" type='text/css' href="./style.css" />
 	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="./zepto.js"></script>
 	<script type="text/javascript">
@@ -39,5 +39,6 @@
 	</script>
 	<script type="text/javascript" src="./script.js"></script>
 	<script type="text/javascript" src="./mailvalidate.js"></script>
+	<script type="text/javascript" src="./html5shiv.js"></script>
 </head>
 <body>

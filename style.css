@@ -363,6 +363,7 @@ div.contact div.form{
 form.contact{
 	width: 400px;
 	height:inherit;
+	position: relative;
 
 }
 
@@ -415,4 +416,11 @@ form.contact textarea.ok{
 }
 form.contact textarea.err{
 	background-color: #C58B8B;
+}
+form.contact iframe#ifrm{
+	width: 0px;
+	height: 350px;
+	position: absolute;
+	left: 320px;
+	top: 30px;
 }

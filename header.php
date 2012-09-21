@@ -39,6 +39,7 @@
 	</script>
 	<script type="text/javascript" src="./script.js"></script>
 	<script type="text/javascript" src="./mailvalidate.js"></script>
+	<script type="text/javascript" src="./aboutus.js"></script>
 	<script type="text/javascript" src="./html5shiv.js"></script>
 </head>
 <body>

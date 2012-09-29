@@ -13,10 +13,8 @@ The website for the **Personal usage**
 
 * [HTML5](http://ali.md/wiki/html5)
 * [CSS3](http://ali.md/css3ref)
-* [1Styles](http://ali.md/1styles)
 * [JavaScript](http://ali.md/wiki/javascript)
 * [PHP] (http://ali.md/php)
-* [Word-Press](http://wordpress.org/)
 * [Zepto] (http://zeptojs.com/)
 
 

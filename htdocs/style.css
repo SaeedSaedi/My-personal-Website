@@ -1,0 +1,471 @@
+body{
+
+}
+/*body > div{
+	outline:1px dashed black;
+}
+body > div > div{
+	outline:1px dashed red;
+}
+body > div > div > div{
+	outline:1px dashed orange;
+}
+body > div > div > div > div{
+	outline:1px dashed magenta;
+}
+body > div > div > div > div > div {
+	outline:1px dashed cyan;
+}
+body > div > div > div > div > div > div{
+	outline:1px dashed red;
+}*/
+
+div.container-head{
+	min-height: 90px;
+	background-image: url('./image/header_bg.png');
+}
+div.container-menu{
+	min-height: 50px;
+	background-image: url('./image/bg_prod_title.png');
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+div.container-slideshow{
+	min-height: 350px;
+	background-image: url('./image/fabric.png');
+}
+div.container-content{
+	height: 0px;
+}
+div.container-footer{
+	min-height: 190px;
+	background-image: url('./image/fabric.png');
+}
+div.container-centerside{
+	min-height: 60px;
+	background: url('./image/header_bg.png') bottom left repeat-x;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+div.container-bg{
+	min-height: 50px;
+	background-image: url('./image/bg_prod_title.png');
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+div[class|='container'] > div{
+	width: 980px;
+	margin: 0 auto;
+	min-height: inherit;
+	padding-top: 1px;
+}
+div.menu ul{
+	list-style-type: none;
+	width: 500px;
+	height: 40px;
+	margin-top: 0px;
+	margin-left: 30px;
+}
+div.menu ul li{
+	float: left;
+	margin-top: 12px;
+	margin-left: 4px;
+}
+div.menu a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 7px 14px;
+	background-color: #ddd;
+	border-radius: 7px;
+	text-shadow: 1px 1px #eee;
+	font-size: 13px;
+	line-height: 15px;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+}
+div.menu a:hover{
+	background-color: #333;
+	color: white;
+	text-shadow: 1px 1px #333;
+}
+div.menu a.active{
+	background-color: #333;
+	color: white;
+	text-shadow: 1px 1px #333;
+}
+div.slideshow{
+	position:relative;
+	background-color: black;
+	overflow: hidden;
+}
+div.slideshow div.slidebar{
+	width: 950px;
+	margin: 0 auto;
+	height: 350px;
+}
+div.slidebar div{
+	outline: none;
+	width: 118.75px;
+	height: 87.5px;
+	float: left;
+}
+div.slideshow div.selector{
+	width: 950px;
+	height: 13px;
+	position:absolute;
+	top: 330px;
+	left: 15px;
+}
+div.selector ul{
+	list-style-type: none;
+	width: 75px;
+	height: inherit;
+	margin: 0 auto;
+}
+div.selector ul li{
+	width: 13px;
+	height: 13px;
+	background-color: #333;
+	float: left;
+	margin-right: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+div.selector ul li:hover{
+	background-color:#999;
+}
+div.selector ul li.active{
+	background-color: #999;
+}
+div.previous,div.next{
+	width: 15px;
+	height: 50px;
+	position:absolute;
+	top: -40px;
+	left: 0;
+	background-image:url('./image/arrows.png');
+	cursor: pointer;
+}
+div.next{
+	left: 965px;
+	background-position: -39px 0px;
+}
+div.previous{
+	background-position:  -6px 0px;
+}
+
+div.centerside p{
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 1.25em;
+	font-weight: normal;
+	line-height: 1.2;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+div.bg a{
+	display: block;
+	width:50px;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+div.footer div.facebook{
+	width: 150px;
+	height: 20px;
+	margin-left: 325px;
+	margin-top: 50px;
+	float: left;
+}
+div.footer div.twitter{
+	width: 150px;
+	height: 20px;
+	margin-left: 500px;
+	margin-top: 50px;
+}
+div.footer div.info{
+	width: 800px;
+	min-height:25px;
+	margin: 10px auto 0;
+}
+div.footer div.copyright{
+	width:300px;
+	min-height: 25px;
+	margin: 10px auto 0;
+}
+div.facebook img,div.twitter img{
+	float: left;
+	margin-left: 30px;
+}
+div.facebook p,div.twitter p{
+	color: #fff;
+	width:60px;
+	margin-left: 50px;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+}
+div.facebook a,div.twitter a{
+	text-decoration: none;
+}
+div.info p{
+	font-size: 15px;
+	width:800px;
+	margin: 0 auto;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+	color: #567;
+}
+div.copyright p{
+	font-size: 15px;
+	width:300px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	color: #675;
+}
+
+div.content{
+	position: relative;
+	z-index: -1;
+	display:none;
+	height:500px;
+}
+div.content div.header{
+	height: 70px;
+}
+div.content div.header p{
+	width:170px;
+	line-height: 70px;
+	font-size: 30px;
+	margin-left: 30px;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	color: #356;
+}
+div.content div.project{
+	width: 300px;
+	height:430px;
+	float: left;
+	margin-left:20px;
+	margin-top: 5px;
+}
+div.project div.img{
+	width:280px;
+	height:200px;
+	margin-left: 10px;
+	padding-bottom: 10px;
+	background-image: url('./image/shadow_left.png'),url('./image/shadow_right.png');;
+	background-repeat: no-repeat;
+	background-position: 0px 200px,150px 200px;
+
+}
+div.project div.img img{
+	width:inherit;
+	height:200px;
+	
+}
+div.project div.txt{
+	width:280px;
+	height:200px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+div.project div.txt p{
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	font-size: 16px;	
+	line-height: 18px;
+	text-indent: 20px;
+	color: #654;
+}
+
+
+/*...........................Content-project.............................*/
+
+div.container-Cproject{
+	min-height: 410px;
+}
+
+div.Cproject div.part{
+	width: 980px;
+	min-height: 230px;
+	margin-top:10px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border:1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px #666;
+
+}
+div.part div.txt{
+	width: 970px;
+	margin-left: 5px;
+	min-height: inherit;
+	padding-top: 1px;
+}
+div.part div.txt p{
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	font-size: 16px;	
+	line-height: 18px;
+	text-indent: 20px;
+	color: #342;
+	margin-top: 10px;
+}
+div.part div.txt div.img{
+	width:280px;
+	height:200px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	background-image: url('./image/shadow_left.png'),url('./image/shadow_right.png');;
+	background-repeat: no-repeat;
+	background-position: 0px 200px,150px 200px;
+	float: left;
+}
+div.txt div.img img{
+	width:inherit;
+	height:200px;
+
+}
+div.txt div.head{
+	width: auto;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 290px;
+}
+div.txt div.head p{
+	width:auto;
+	line-height: 30px;
+	font-size: 30px;
+	margin-left: 30px;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	color: #356;
+}
+
+
+
+/*...........................Content-contact.............................*/
+
+div.container-contact{
+	min-height: 463px;
+}
+
+div.contact div.form{
+	width: 970px;
+	margin-left: 5px;
+	margin-top: 10px;
+	height: 410px;
+	width: 400px;
+	padding: 15px;
+	overflow: hidden;
+	border: 1px solid gray;
+	background-image: url('./image/fabric.png');
+	border-radius: 5px;
+	float: left;
+}
+
+form.contact{
+	width: 400px;
+	height:inherit;
+	position: relative;
+
+}
+
+form.contact p{
+	font-size: 17px;
+	height: 40px;
+	margin-left: 10px;
+	line-height: 40px;
+	color: #65B7DE;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+
+}
+form.contact input{
+	width: 200px;
+	margin-left: 40px;
+	outline: none;
+	height: 20px;
+	-webkit-transition: all 1s ease;
+	   -moz-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+	     -o-transition: all 1s ease;
+	        transition: all 1s ease;
+	
+}
+form.contact textarea{
+	margin-left: 40px;
+	resize: none;
+	outline: none;
+	display: block
+}
+input#submit,input#reset{
+	width: 100px;
+	display: block;
+	margin-top: 8px;
+	height: 25px;
+}
+input#submit{
+	float: left;
+	margin-top: 6px;
+}
+
+form.contact input.ok{
+	background-color: #96C296;
+}
+form.contact input.err{
+	background-color: #C58B8B;
+}
+form.contact textarea.ok{
+	background-color: #96C296;
+}
+form.contact textarea.err{
+	background-color: #C58B8B;
+}
+form.contact iframe#ifrm{
+	width: 0px;
+	height: 350px;
+	position: absolute;
+	left: 320px;
+	top: 30px;
+}
+
+
+/*...........................Content-AboutUs.............................*/
+
+div.contact div.aboutus{
+	width: 520px;
+	height: 440px;
+	margin-left: 450px;
+	margin-top: 10px;
+}
+div.aboutus p{
+	font-size: 30px;
+	font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+	color: #476;
+	width: 0px;
+	white-space:nowrap;
+	overflow: hidden;
+}
+div.aboutus div.information{
+	width: 500px;
+	height: 310px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+div.information p{
+	font-size: 16px;
+	color: #345;
+	white-space: normal;
+	width: auto;
+	height: 0px;
+}
+div.aboutus div.aboutimg{
+	width: 500px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+div.aboutimg img{
+	width: 60px;
+	margin-left: 50px;
+	margin-top: 80px;
+	float: left;
+}
